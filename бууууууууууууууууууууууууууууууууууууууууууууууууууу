@@ -1,0 +1,23 @@
+import turtle
+t= turtle.Turtle()
+t.shape()
+t.speed(0)
+t.width(5)
+t.color('green')
+ 
+def katok(x, y):
+   t.goto(100+x, y)
+   t.circle(50)
+   
+katok(-200,0)
+katok(-100,0)
+katok(0, 0)
+katok(100, 0)
+katok(200,0)
+
+t.penup()
+t.goto(300, 100)
+t.pendown()
+t.goto(-100,100)
+
+turle.done()
